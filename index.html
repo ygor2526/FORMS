@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Cadastro de país</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/post.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Cadastro de países</h1>
+      <p>Preencha os dados abaixo!!!</p>
+    </header>
+    <main>
+        <section>
+  <h2>Novo país</h2>
+
+  <form id="form-pais">
+    <label for="nome"> Nome do País:</label>
+    <input id="nome" name="nome" type="text" minlength="3" maxlength="120" required />
+
+    <label for="Tipo_destino">Tipo de destino </label>
+    <input id="Tipo_destino" name="Tipo_destino" type="text" required />
+
+    <label for="Melhor_epoca">Melhor época </label>
+    <input id="Melhor_epoca" name="Melhor_epoca" type="text" required />
+
+    <label for="custo médio">Custo Médio estimado </label>
+    <input id="custo médio" name="custo médio" type="number" required />
+
+    <label for="imageUrl">URL da imagem (opcional): </label>
+    <input id="imageUrl" name="imageUrl" type="url" />
+
+    <button type="submit">Cadastrar país</button>
+  </form>
+
+  <p id="resposta"></p>
+</section>
+</main>
+</body>
+</html>
+      
+  
